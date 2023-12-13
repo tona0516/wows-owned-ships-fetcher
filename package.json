@@ -1,0 +1,22 @@
+{
+  "name": "wows-owned-ships-fetcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "fetch": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tona0516",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^1.6.2",
+    "commander": "^11.1.0",
+    "date-fns": "^2.30.0"
+  }
+}
